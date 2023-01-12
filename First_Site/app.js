@@ -1,6 +1,6 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
-const navLogo = document.querySelector('#navbar_logo');
+const navLogo = document.querySelector('#navbar_logo')
 
 //display mobile menu
 const mobileMenu = () => {
@@ -34,7 +34,7 @@ const highlightMenu = () => {
         return
     }
 
-    if(elem && window.innerWidth < 960 && scrollPos < 600) || elem) {
+    if((elem && window.innerWidth < 960 && scrollPos < 600) || elem) {
         elem.classList.remove('highlight')
     }
 

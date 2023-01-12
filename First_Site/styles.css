@@ -238,8 +238,8 @@
     -moz-text-fill-color: transparent;
 }
 
-.hightlight {
-    border-bottom: 4px solid rgb(156, 159, 141);
+.highlight {
+    border-bottom: 4px solid rgb(255, 216, 155);
 }
 
 @media screen and (max-width: 768px) {
